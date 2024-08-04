@@ -19,3 +19,8 @@ rectDiv.addEventListener("mousemove", function(det) {
     }
 });
 
+rectDiv.addEventListener("mouseleave", function() {
+    gsap.to(rectDiv, {
+        backgroundColor: "white",
+    })
+})
